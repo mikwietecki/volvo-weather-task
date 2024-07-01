@@ -9,7 +9,6 @@ import java.util.List;
 @Configuration
 @Getter
 public class AppPropertiesConfig {
-
     @Value("${api.key}")
     private String apiKey;
 
